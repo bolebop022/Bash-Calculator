@@ -3,15 +3,19 @@
 # Define arithmetic functions
 
 add() {
-   let answer=($1 + $2)
+    let answer=($1 + $2)
+    echo Result: $answer
 }
 
 subtract(){
-   let answer=($1 - $2)
+    let answer=($1 - $2)
+    echo Result: $answer
+
 }
 
 multiply(){
-   let answer=($1 * $2)
+    let answer=($1 * $2)
+    echo Result: $answer
 }
 
 divide(){
@@ -20,6 +24,7 @@ divide(){
 	 return 1
     fi
     let answer=($1/$2)
+    echo Result: $answer
 }
 
 # End of Arithmetic functions
